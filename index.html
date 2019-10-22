@@ -18,13 +18,18 @@
     <div class="container">
       <h1>Weather app</h1>
       <form id="search-form">
-        <input
-          type="search"
-          class="form-control"
-          id="city-input"
-          placeholder="Type a city..."
-          autocomplete="off"
-        />
+        <div class="row">
+          <div class="col-10">
+            <input
+              type="search"
+              class="form-control"
+              id="city-input"
+              placeholder="Type a city..."
+              autocomplete="off"
+            />
+          </div>
+          <input type="button" value="Search" class="col-2 btn btn-primary" />
+        </div>
       </form>
       <h2 id="city"></h2>
       <h3 id="temperature"></h3>
